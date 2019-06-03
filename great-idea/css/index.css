@@ -18,6 +18,11 @@ h5 {
     margin-bottom: 15px;
 }
 
+.main-container {
+    margin: 0 auto;
+    width: 875px;
+}
+
 a {
     text-decoration: none;
     color: silver;
@@ -33,11 +38,6 @@ a:hover {
 header nav {
     display: inline-block;
     text-align: center;
-}
-
-.main-container {
-    margin: 0 auto;
-    width: 875px;
 }
 
 .nav-container {

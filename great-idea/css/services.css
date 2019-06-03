@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+button {
+    background: white;
+    width: 150px;
+    height: 35px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+hr {
+    border-top: 1px solid black;
+}
+
+.main-container {
+    margin: 0 auto;
+    width: 875px;
+}
+
+.nav-container {
+    display: flex;
+    align-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: silver;
+}
+
+.services-header-container {
+    display: flex;
+    width: 100%;
+    flex-flow: row wrap;
+}
+
+.main-section-container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
+}
+
+.digital-design-container {
+    display: flex;
+    background: #E7E0DE;
+    width: 45%;
+    height: 200px;
+    padding: 15px;
+    border: 1px solid black;
+    flex-flow: row wrap;
+}
+
+.ux-ui-container {
+    display: flex;
+    background: #E7E0DE;
+    width: 45%;
+    height: 200px;
+    padding: 15px;
+    border: 1px solid black;
+    flex-flow: row wrap;
+}
+
+.digital-marketing-container {
+    display: flex;
+    background: #E7E0DE;
+    width: 45%;
+    height: 200px;
+    padding: 15px;
+    border: 1px solid black;
+    flex-flow: row wrap;
+}
+
+.web-dev-container {
+    display: flex;
+    background: #E7E0DE;
+    width: 45%;
+    height: 200px;
+    padding: 15px;
+    border: 1px solid black;
+    flex-flow: row wrap;
+}
+
+.ios-dev-container {
+    display: flex;
+    background: #E7E0DE;
+    width: 45%;
+    height: 200px;
+    padding: 15px;
+    border: 1px solid black;
+    flex-flow: row wrap;
+}
+
+.android-dev-container {
+    display: flex;
+    background: #E7E0DE;
+    width: 45%;
+    height: 200px;
+    padding: 15px;
+    border: 1px solid black;
+    flex-flow: row wrap;
+}
+
+.facts-container {
+    display: flex;
+    flex-flow: row nowrap;
+}
