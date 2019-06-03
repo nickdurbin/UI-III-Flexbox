@@ -18,26 +18,43 @@ h5 {
     margin-bottom: 15px;
 }
 
-button {
-    background: white;
-    width: 150px;
-    height: 35px;
-    border: 1px solid black;
-    border-radius: 4px;
+h1 {
+    margin-top: 40px;
+    font-size: 26px;
+}
+
+p {
+    line-height: 1.25;
+    font-weight: 575;
 }
 
 hr {
     border-top: 1px solid black;
 }
 
+button {
+    background: white;
+    width: 140px;
+    height: 35px;
+    margin-top: 22px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
 .main-container {
     margin: 0 auto;
-    width: 875px;
+    width: 880px;
 }
 
 .nav-container {
     display: flex;
-    align-content: space-between;
+}
+
+nav {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-content: stretch;
 }
 
 a {
@@ -48,6 +65,7 @@ a {
 .services-header-container {
     display: flex;
     width: 100%;
+    margin: 40px 0;
     flex-flow: row wrap;
 }
 
@@ -56,71 +74,87 @@ a {
     width: 100%;
     height: 100%;
     flex-wrap: wrap;
-    justify-content: center;
-    align-content: space-between;
+    justify-content: space-between;
+    align-content: space-around;
+    margin: 40px 0;
 }
 
 .digital-design-container {
-    display: flex;
-    background: #E7E0DE;
-    width: 45%;
-    height: 200px;
-    padding: 15px;
+    background: #EEE8E7;
+    width: 47.7%;
+    height: 250px;
+    padding: 20px 20px 0 20px;
     border: 1px solid black;
-    flex-flow: row wrap;
+    margin: 0 0 40px 0;
 }
 
 .ux-ui-container {
-    display: flex;
-    background: #E7E0DE;
-    width: 45%;
-    height: 200px;
-    padding: 15px;
+    background: #EEE8E7;
+    width: 47.7%;
+    height: 250px;
+    padding: 20px 20px 0 20px;
     border: 1px solid black;
-    flex-flow: row wrap;
+    margin: 0 0 40px 0;
 }
 
 .digital-marketing-container {
-    display: flex;
-    background: #E7E0DE;
-    width: 45%;
-    height: 200px;
-    padding: 15px;
+    background: #EEE8E7;
+    width: 47.7%;
+    height: 250px;
+    padding: 20px 20px 0 20px;
     border: 1px solid black;
-    flex-flow: row wrap;
+    margin: 0 0 40px 0;
 }
 
 .web-dev-container {
-    display: flex;
-    background: #E7E0DE;
-    width: 45%;
-    height: 200px;
-    padding: 15px;
+    background: #EEE8E7;
+    width: 47.7%;
+    height: 250px;
+    padding: 20px 20px 0 20px;
     border: 1px solid black;
-    flex-flow: row wrap;
+    margin: 0 0 40px 0;
 }
 
 .ios-dev-container {
-    display: flex;
-    background: #E7E0DE;
-    width: 45%;
-    height: 200px;
-    padding: 15px;
+    background: #EEE8E7;
+    width: 47.7%;
+    height: 250px;
+    padding: 20px 20px 0 20px;
     border: 1px solid black;
-    flex-flow: row wrap;
 }
 
 .android-dev-container {
-    display: flex;
-    background: #E7E0DE;
-    width: 45%;
-    height: 200px;
-    padding: 15px;
+    background: #EEE8E7;
+    width: 47.7%;
+    height: 250px;
+    padding: 20px 20px 0 20px;
     border: 1px solid black;
-    flex-flow: row wrap;
 }
 
 .facts-container {
     display: flex;
+    border-top: 2px solid black;
+    margin: 40px 0;
     flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.facts-list-container {
+    margin: 40px 20px 0 0;
+}
+
+.facts-img-container {
+    margin: 40px 0 0 20px;
+}
+
+li {
+    margin-bottom: 15px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    margin: 40px 0 20px 0;
 }
