@@ -156,8 +156,8 @@ a {
 
 li {
     margin-bottom: 15px;
-    margin-left: 20px;
     list-style-type: square;
+    list-style-position: inside;
     font-weight: 600;
 }
 
