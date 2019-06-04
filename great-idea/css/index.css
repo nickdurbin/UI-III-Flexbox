@@ -27,7 +27,6 @@ a:hover {
     color: black;
     transform: scale(1.09);
     text-shadow: 10px 10px 15px rgba(0, 0, 0, 0.75);
-    background: hidden;
 }
 
 .nav-container {
@@ -73,9 +72,8 @@ a {
 }
 
 .hero-img-container img {
-    background: url(img/header-img.png) no-repeat;
-    width: 379px;
-    height: 379px;
+    width: 100%;
+    height: 100%;
 }
 
 h1 {
@@ -115,6 +113,7 @@ hr {
 .features-about-container {
     display: flex;
     flex-flow: row nowrap;
+    margin: 30px 0;
 }
 
 .features-container {
@@ -125,20 +124,14 @@ hr {
     padding: 5px;
 }
 
-.middle-img-container {
-    margin: 0 auto;
-}
-
 .middle-img {
-    display: block;
-    background: url(img/mid-page-accent.jpg) no-repeat;
-    width: 876px;
-    height: 183px;
+    width: 100%;
 }
 
 .services-product-vision-container {
     display: flex;
     flex-flow: row nowrap;
+    margin: 30px 0;
 }
 
 .services-container {
@@ -159,9 +152,11 @@ footer {
 
 address {
     line-height: 1;
+    margin: 30px 0;
 }
 
 footer p {
     text-align: center;
     font-family: 'Oswald', sans-serif;
+    height: 100px;
 }
