@@ -54,7 +54,6 @@ button {
 nav {
     display: flex;
     align-items: center;
-    align-content: flex-start;
     justify-content: space-around;
     flex-flow: row nowrap;
     width: 100%;
