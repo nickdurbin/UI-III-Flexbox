@@ -168,3 +168,15 @@ footer {
     height: 100px;
     margin: 40px 0 20px 0;
 }
+
+@media only screen and (max-device-width: 375px) {
+    img {
+        visibility: hidden;
+    }
+}
+
+@media only screen and (max-device-width: 667px) {
+    img {
+        visibility: hidden;
+    }
+}
