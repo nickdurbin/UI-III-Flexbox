@@ -176,28 +176,43 @@ footer {
 }
 
 @media only screen and (max-width: 440px) {
+    .main-container {
+        width: 440px;
+        margin: 0 auto;
+    }
     .main-section-container,
-    .services-header-container {
+    .services-header-container,
+    .facts-container {
         display: flex;
         flex-flow: column wrap;
         justify-content: center;
-        width: 50%;
+        width: 100%;
         font-size: 12px;
         margin: 0 10px 0 10px;
     }
     .digital-design-container,
     .ux-ui-container,
     .digital-marketing-container,
-    .web-dev-container,
-    .android-dev-container {
+    .web-dev-container {
         width: 50%;
     }
-    .ios-dev-container {
+    .ios-dev-container,
+    .android-dev-container {
         width: 50%;
         margin: 0 0 40px 0;
     }
+    .facts-img-container {
+        width: 50%;
+    }
+    /* .services-info-img {
+        width: 100%;
+    } */
+    footer {
+        margin: 0 20px;
+    }
 }
 
-@media only screen and (max-width: 600px) {
+
+/* @media only screen and (max-width: 600px) {
     .main-section-container {}
-}
+} */
