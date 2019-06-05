@@ -180,15 +180,32 @@ footer {
         width: 440px;
         margin: 0 auto;
     }
+    .nav-container {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .logo {
+        width: 90%;
+    }
     .main-section-container,
-    .services-header-container,
     .facts-container {
         display: flex;
         flex-flow: column wrap;
         justify-content: center;
         width: 100%;
         font-size: 12px;
-        margin: 0 10px 0 10px;
+        margin: 0 10px;
+    }
+    .services-header-container {
+        height: auto;
+        justify-content: inherit;
+        align-items: inherit;
+        font-size: 12px;
+        margin: 0 10px;
+    }
+    .services-header-img {
+        width: 100%;
+        display: block;
     }
     .digital-design-container,
     .ux-ui-container,
@@ -202,11 +219,14 @@ footer {
         margin: 0 0 40px 0;
     }
     .facts-img-container {
-        width: 50%;
+        height: auto;
+        justify-content: inherit;
+        align-items: inherit;
     }
-    /* .services-info-img {
+    .services-info-img {
         width: 100%;
-    } */
+        display: block;
+    }
     footer {
         margin: 0 20px;
     }
