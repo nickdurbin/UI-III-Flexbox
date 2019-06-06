@@ -37,6 +37,7 @@ button {
     width: 140px;
     height: 35px;
     margin-top: 22px;
+    margin-bottom: 4px;
     border: 1px solid black;
     border-radius: 4px;
 }
@@ -45,7 +46,7 @@ button {
     /* display: flex;
     flex-wrap: wrap; */
     margin: 0 auto;
-    width: 880px;
+    width: 60%;
 }
 
 .nav-container {
@@ -95,7 +96,7 @@ a {
 .digital-design-container {
     background: #EEE8E7;
     width: 47.7%;
-    height: 250px;
+    height: auto;
     padding: 20px 20px 0 20px;
     border: 1px solid black;
     margin: 0 0 40px 0;
@@ -104,7 +105,7 @@ a {
 .ux-ui-container {
     background: #EEE8E7;
     width: 47.7%;
-    height: 250px;
+    height: auto;
     padding: 20px 20px 0 20px;
     border: 1px solid black;
     margin: 0 0 40px 0;
@@ -113,7 +114,7 @@ a {
 .digital-marketing-container {
     background: #EEE8E7;
     width: 47.7%;
-    height: 250px;
+    height: auto;
     padding: 20px 20px 0 20px;
     border: 1px solid black;
     margin: 0 0 40px 0;
@@ -122,7 +123,7 @@ a {
 .web-dev-container {
     background: #EEE8E7;
     width: 47.7%;
-    height: 250px;
+    height: auto;
     padding: 20px 20px 0 20px;
     border: 1px solid black;
     margin: 0 0 40px 0;
@@ -131,7 +132,7 @@ a {
 .ios-dev-container {
     background: #EEE8E7;
     width: 47.7%;
-    height: 250px;
+    height: auto;
     padding: 20px 20px 0 20px;
     border: 1px solid black;
 }
@@ -139,7 +140,7 @@ a {
 .android-dev-container {
     background: #EEE8E7;
     width: 47.7%;
-    height: 250px;
+    height: auto;
     padding: 20px 20px 0 20px;
     border: 1px solid black;
 }
@@ -175,9 +176,9 @@ footer {
     margin: 40px 0 20px 0;
 }
 
-@media only screen and (max-width: 440px) {
+@media only screen and (max-width: 950px) {
     .main-container {
-        width: 440px;
+        width: 80%;
         margin: 0 auto;
     }
     .nav-container {
@@ -193,14 +194,14 @@ footer {
         flex-flow: column wrap;
         justify-content: center;
         width: 100%;
-        font-size: 12px;
+        font-size: 15px;
         margin: 0 10px;
     }
     .services-header-container {
         height: auto;
         justify-content: inherit;
         align-items: inherit;
-        font-size: 12px;
+        font-size: 15px;
         margin: 0 10px;
     }
     .services-header-img {
@@ -211,11 +212,13 @@ footer {
     .ux-ui-container,
     .digital-marketing-container,
     .web-dev-container {
-        width: 50%;
+        width: 100%;
+        height: auto;
     }
     .ios-dev-container,
     .android-dev-container {
-        width: 50%;
+        width: 100%;
+        height: auto;
         margin: 0 0 40px 0;
     }
     .facts-img-container {
